@@ -1,0 +1,9 @@
+# Behat configuration file
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext
+        - Session\SessionContext
+      paths:
+        - %paths.base%/features
